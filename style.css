@@ -27,7 +27,10 @@
     gap: 20px;
     font-size: 25px;
 }
-
+ul > li:hover{
+    cursor: pointer;
+    color: rgb(245, 44, 44);
+}
 /* banner section style design  */
 .banner-container{
     height: 100vh;
