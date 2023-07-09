@@ -169,7 +169,9 @@
     align-items: center;
     margin: auto;
     padding: 20px;
-    background-color: rgb(245, 44, 44);
+    /* background-color: rgb(245, 44, 44); */
+    background-image: url(./asset/image/appbackg.jpg);
+    background-size: cover;
     border-radius: 10px;
     margin-top: -80px;
 }
