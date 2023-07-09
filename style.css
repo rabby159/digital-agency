@@ -1,0 +1,66 @@
+/* primary need css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primary{
+    color: rgb(245, 44, 44);
+}
+
+.btn-primary{
+    background-color: rgb(245, 44, 44);
+    color: white;
+}
+
+/* nav section style design  */
+.nav-container{
+    background-color: rgba(124, 123, 122, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+/* banner section style design  */
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+}
+.banner-info{
+    padding-top: 50vh;
+}
+.banner-title{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+
+}
+.banner-descr{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    padding: 15px 35px;
+    border: none;
+}
+
+.btn-hire{
+    margin-left: 10px;
+}
