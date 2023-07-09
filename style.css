@@ -215,15 +215,18 @@
 
 .blog-img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 2px 2px;
 }
 .card-title{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: bold;
+    padding: 10px;
 }
-
+.card-descr{
+    padding: 10px;
+}
 .footer-container{
     width: 100%;
     height: 70vh;
