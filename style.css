@@ -14,6 +14,10 @@
 }
 
 /* nav section style design  */
+.position{
+    position: sticky;
+    top: 0px;
+}
 .nav-container{
     background-color: rgba(124, 123, 122, 0.5);
     display: flex;
